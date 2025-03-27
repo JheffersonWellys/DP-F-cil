@@ -1,4 +1,6 @@
-﻿Imports System.Data.SQLite
+﻿Imports System.Data.SqlClient
+Imports System.Data.SQLite
+Imports DP_Fácil.Tabela
 
 Module Md_BancoDeDados
 
@@ -14,7 +16,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Função para obter a conexão com o banco de dados SQLite
-    Public Function ObterConexaoSQLite() As SQLiteConnection
+    Private Function ObterConexaoSQLite() As SQLiteConnection
         Dim conn As New SQLiteConnection("Data Source=" & caminhoBandoDeDados & ";Version=3;")
         Try
             conn.Open()
@@ -25,7 +27,7 @@ Module Md_BancoDeDados
     End Function
 
     ' Função para criar o banco de dados
-    Public Sub CriarBancoDados()
+    Private Sub CriarBancoDados()
         Try
             If Not IO.File.Exists(caminhoBandoDeDados) Then
                 SQLiteConnection.CreateFile(caminhoBandoDeDados)
@@ -36,7 +38,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Função para criar as tabelas no banco de dados
-    Public Sub CriarTabelas()
+    Private Sub CriarTabelas()
         Dim query As String = "
             CREATE TABLE IF NOT EXISTS enderecos (
                 id_endereco INTEGER PRIMARY KEY,
@@ -148,7 +150,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Função para criar as triggers no banco de dados
-    Public Sub CriarTriggers()
+    Private Sub CriarTriggers()
         Dim query As String = "
             CREATE TRIGGER IF NOT EXISTS log_status_change
             AFTER UPDATE ON colaboradores
@@ -195,7 +197,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Função para criar as vistas no banco de dados
-    Public Sub CriarVistas()
+    Private Sub CriarVistas()
         Dim query As String = "
             CREATE VIEW IF NOT EXISTS vw_exames_colaboradores AS
             SELECT 
@@ -239,7 +241,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Função para criar os índices no banco de dados
-    Public Sub CriarIndices()
+    Private Sub CriarIndices()
         Dim query As String = "
             CREATE INDEX IF NOT EXISTS idx_endereco_clinicas ON clinicas(id_endereco);
             CREATE INDEX IF NOT EXISTS idx_endereco_unidades_senac ON unidades_senac(id_endereco);
@@ -261,7 +263,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Funções para inserir, atualizar, excluir e consultar registros no banco de dados
-    Public Sub InserirRegistro(query As String, parametros As List(Of SQLiteParameter))
+    Private Function InserirRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
                 Using cmd As New SQLiteCommand(query, conn)
@@ -271,12 +273,14 @@ Module Md_BancoDeDados
                     cmd.ExecuteNonQuery()
                 End Using
             End Using
+            Return True
         Catch ex As Exception
             MessageBox.Show("Erro ao inserir registro: " & ex.Message)
+            Return False
         End Try
-    End Sub
+    End Function
 
-    Public Sub AtualizarRegistro(query As String, parametros As List(Of SQLiteParameter))
+    Private Function AtualizarRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
                 Using cmd As New SQLiteCommand(query, conn)
@@ -286,12 +290,14 @@ Module Md_BancoDeDados
                     cmd.ExecuteNonQuery()
                 End Using
             End Using
+            Return True
         Catch ex As Exception
             MessageBox.Show("Erro ao atualizar registro: " & ex.Message)
+            Return False
         End Try
-    End Sub
+    End Function
 
-    Public Sub ExcluirRegistro(query As String, parametros As List(Of SQLiteParameter))
+    Private Function ExcluirRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
                 Using cmd As New SQLiteCommand(query, conn)
@@ -301,12 +307,14 @@ Module Md_BancoDeDados
                     cmd.ExecuteNonQuery()
                 End Using
             End Using
+            Return True
         Catch ex As Exception
             MessageBox.Show("Erro ao excluir registro: " & ex.Message)
+            Return False
         End Try
-    End Sub
+    End Function
 
-    Public Function ConsultarRegistros(query As String, parametros As List(Of SQLiteParameter)) As DataTable
+    Private Function ConsultarRegistros(query As String, parametros As List(Of SQLiteParameter)) As DataTable
         Dim dt As New DataTable()
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
@@ -321,6 +329,7 @@ Module Md_BancoDeDados
             End Using
         Catch ex As Exception
             MessageBox.Show("Erro ao consultar registros: " & ex.Message)
+            Return Nothing
         End Try
         Return dt
     End Function
