@@ -6,6 +6,9 @@
     ' Quando o formulário for carregado, inicializa o timer
     Private Sub FormIntro_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        ' Inicializar banco de dados
+        Call InicializarBancoDeDados()
+
         ' Configura o intervalo do timer (5 segundos = 5000 milissegundos)
         Tmr_Intro.Interval = 3000 ' 5 segundos
         Tmr_Intro.Start() ' Inicia o timer
