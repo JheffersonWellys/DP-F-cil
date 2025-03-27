@@ -19,7 +19,7 @@
         Tmr_Intro.Stop()
 
         ' Abre o FormPrincipal e fecha o FormIntro
-        Dim frm_Principal As New Form_Principal()
+        Dim frm_Principal As New Frm_Principal()
         frm_Principal.Show()
 
         Me.Close()
