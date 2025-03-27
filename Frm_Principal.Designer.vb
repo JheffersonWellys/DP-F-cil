@@ -32,40 +32,61 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_Admsss = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_Admnstrtv = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_PrzDtrmnd = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_InstrtrDFrmcPrfssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_Intrmtnt = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_Admsss_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrCnfrmcAdmss = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpSprtr_PrcsssDP_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmAdmssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDmssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDMdncDFnc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDRtrnATrblh = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmPrdc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmAdmssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDmssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDMdncDFnc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDRtrnATrblh = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmPrdc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmAdmssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDmssnl = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDMdncDFnc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDRtrnATrblh = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmPrdc = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpSprtr_PrcsssDP_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_Rscss = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_PrcsssDP_Rscss_EmtrCncDHmlgc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_PrcsssDP_Rscss_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_PrcsssDP_Rscss_EmtrFnsRscsrs = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_Clbrdrs = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_Cdstrs_Clbrdrs_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_Cdstrs_Clbrdrs_Edtr = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_Clbrdrs_Exclr = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpSprtr_Cdstrs_Clbrdrs_2 = New System.Windows.Forms.ToolStripSeparator()
@@ -73,6 +94,7 @@ Partial Class Frm_Principal
         Me.TlStrpSprtr_Cdstrs_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_Cdstrs_UnddsSnc = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_UnddsSnc_Adcnr = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_Cdstrs_UnddsSnc_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_Cdstrs_UnddsSnc_Edtr = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_UnddsSnc_Exclr = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpSprtr_Cdstrs_UnddsSnc_2 = New System.Windows.Forms.ToolStripSeparator()
@@ -80,33 +102,11 @@ Partial Class Frm_Principal
         Me.TlStrpSprtr_Cdstrs_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Adcnr = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_1 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Edtr = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Exclr = New System.Windows.Forms.ToolStripMenuItem()
         Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_2 = New System.Windows.Forms.ToolStripSeparator()
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Vslzr = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TlStrpSprtr_PrcsssDP_Admsss_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_Rscss_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_Cdstrs_Clbrdrs_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_Cdstrs_UnddsSnc_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4 = New System.Windows.Forms.ToolStripSeparator()
         Me.MnStrp_MnDPFcl.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -129,18 +129,18 @@ Partial Class Frm_Principal
         'TlStrpMnItm_Sbr
         '
         Me.TlStrpMnItm_Sbr.Name = "TlStrpMnItm_Sbr"
-        Me.TlStrpMnItm_Sbr.Size = New System.Drawing.Size(180, 22)
+        Me.TlStrpMnItm_Sbr.Size = New System.Drawing.Size(104, 22)
         Me.TlStrpMnItm_Sbr.Text = "Sobre"
         '
         'TlStrpSprtr_Mn_1
         '
         Me.TlStrpSprtr_Mn_1.Name = "TlStrpSprtr_Mn_1"
-        Me.TlStrpSprtr_Mn_1.Size = New System.Drawing.Size(177, 6)
+        Me.TlStrpSprtr_Mn_1.Size = New System.Drawing.Size(101, 6)
         '
         'TlStrpMnItm_Sr
         '
         Me.TlStrpMnItm_Sr.Name = "TlStrpMnItm_Sr"
-        Me.TlStrpMnItm_Sr.Size = New System.Drawing.Size(180, 22)
+        Me.TlStrpMnItm_Sr.Size = New System.Drawing.Size(104, 22)
         Me.TlStrpMnItm_Sr.Text = "Sair"
         '
         'TlStrpMnItm_PrcsssDP
@@ -171,23 +171,38 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst.Size = New System.Drawing.Size(223, 22)
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst.Text = "Tipo de Contrato Mensalista"
         '
-        'TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl
-        '
-        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl.Name = "TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl"
-        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl.Size = New System.Drawing.Size(255, 22)
-        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl.Text = "Instrutor de Formação Profissional"
-        '
         'TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_Admnstrtv
         '
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_Admnstrtv.Name = "TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_Admnstrtv"
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_Admnstrtv.Size = New System.Drawing.Size(255, 22)
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_Admnstrtv.Text = "Administrativo"
         '
+        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1"
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1.Size = New System.Drawing.Size(252, 6)
+        '
+        'TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl
+        '
+        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl.Name = "TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl"
+        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl.Size = New System.Drawing.Size(255, 22)
+        Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_InstrtrDFrmcPrfssnl.Text = "Instrutor de Formação Profissional"
+        '
+        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2
+        '
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2"
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2.Size = New System.Drawing.Size(252, 6)
+        '
         'TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_PrzDtrmnd
         '
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_PrzDtrmnd.Name = "TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_PrzDtrmnd"
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_PrzDtrmnd.Size = New System.Drawing.Size(255, 22)
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_PrzDtrmnd.Text = "Prazo Determinado"
+        '
+        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1"
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1.Size = New System.Drawing.Size(220, 6)
         '
         'TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst
         '
@@ -202,11 +217,21 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_InstrtrDFrmcPrfssnl.Size = New System.Drawing.Size(255, 22)
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_InstrtrDFrmcPrfssnl.Text = "Instrutor de Formação Profissional"
         '
+        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1"
+        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1.Size = New System.Drawing.Size(252, 6)
+        '
         'TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_Intrmtnt
         '
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_Intrmtnt.Name = "TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_Intrmtnt"
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_Intrmtnt.Size = New System.Drawing.Size(255, 22)
         Me.TlStrpMnItm_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_Intrmtnt.Text = "Intermitente"
+        '
+        'TlStrpSprtr_PrcsssDP_Admsss_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_Admsss_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_1"
+        Me.TlStrpSprtr_PrcsssDP_Admsss_1.Size = New System.Drawing.Size(250, 6)
         '
         'TlStrpMnItm_PrcsssDP_Admsss_EnvrCnfrmcAdmss
         '
@@ -239,11 +264,21 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmAdmssnl.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmAdmssnl.Text = "Exame Admissional"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDmssnl
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDmssnl.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDmssnl"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDmssnl.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDmssnl.Text = "Exame Demissional"
+        '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2.Size = New System.Drawing.Size(232, 6)
         '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDMdncDFnc
         '
@@ -251,17 +286,32 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDMdncDFnc.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDMdncDFnc.Text = "Exame de Mudança de Função"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDRtrnATrblh
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDRtrnATrblh.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDRtrnATrblh"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDRtrnATrblh.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmDRtrnATrblh.Text = "Exame de Retorno ao Trabalho"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmPrdc
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmPrdc.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmPrdc"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmPrdc.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_ExmPrdc.Text = "Exame Periódico"
+        '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_1"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_1.Size = New System.Drawing.Size(206, 6)
         '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc
         '
@@ -276,11 +326,21 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmAdmssnl.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmAdmssnl.Text = "Exame Admissional"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDmssnl
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDmssnl.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDmssnl"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDmssnl.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDmssnl.Text = "Exame Demissional"
+        '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2.Size = New System.Drawing.Size(232, 6)
         '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDMdncDFnc
         '
@@ -288,17 +348,32 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDMdncDFnc.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDMdncDFnc.Text = "Exame de Mudança de Função"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDRtrnATrblh
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDRtrnATrblh.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDRtrnATrblh"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDRtrnATrblh.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmDRtrnATrblh.Text = "Exame de Retorno ao Trabalho"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmPrdc
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmPrdc.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmPrdc"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmPrdc.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_ExmPrdc.Text = "Exame Periódico"
+        '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_2
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_2"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_2.Size = New System.Drawing.Size(206, 6)
         '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO
         '
@@ -313,11 +388,21 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmAdmssnl.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmAdmssnl.Text = "Exame Admissional"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDmssnl
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDmssnl.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDmssnl"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDmssnl.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDmssnl.Text = "Exame Demissional"
+        '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2.Size = New System.Drawing.Size(232, 6)
         '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDMdncDFnc
         '
@@ -325,11 +410,21 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDMdncDFnc.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDMdncDFnc.Text = "Exame de Mudança de Função"
         '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3.Size = New System.Drawing.Size(232, 6)
+        '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDRtrnATrblh
         '
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDRtrnATrblh.Name = "TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDRtrnATrblh"
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDRtrnATrblh.Size = New System.Drawing.Size(235, 22)
         Me.TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmDRtrnATrblh.Text = "Exame de Retorno ao Trabalho"
+        '
+        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4
+        '
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4"
+        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4.Size = New System.Drawing.Size(232, 6)
         '
         'TlStrpMnItm_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_ExmPrdc
         '
@@ -354,6 +449,11 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_PrcsssDP_Rscss_EmtrCncDHmlgc.Name = "TlStrpMnItm_PrcsssDP_Rscss_EmtrCncDHmlgc"
         Me.TlStrpMnItm_PrcsssDP_Rscss_EmtrCncDHmlgc.Size = New System.Drawing.Size(242, 22)
         Me.TlStrpMnItm_PrcsssDP_Rscss_EmtrCncDHmlgc.Text = "Emitir Ciência de Homologação"
+        '
+        'TlStrpSprtr_PrcsssDP_Rscss_1
+        '
+        Me.TlStrpSprtr_PrcsssDP_Rscss_1.Name = "TlStrpSprtr_PrcsssDP_Rscss_1"
+        Me.TlStrpSprtr_PrcsssDP_Rscss_1.Size = New System.Drawing.Size(239, 6)
         '
         'TlStrpMnItm_PrcsssDP_Rscss_EmtrFnsRscsrs
         '
@@ -380,6 +480,11 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr.Name = "TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr"
         Me.TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr.Size = New System.Drawing.Size(180, 22)
         Me.TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr.Text = "Adicionar"
+        '
+        'TlStrpSprtr_Cdstrs_Clbrdrs_1
+        '
+        Me.TlStrpSprtr_Cdstrs_Clbrdrs_1.Name = "TlStrpSprtr_Cdstrs_Clbrdrs_1"
+        Me.TlStrpSprtr_Cdstrs_Clbrdrs_1.Size = New System.Drawing.Size(177, 6)
         '
         'TlStrpMnItm_Cdstrs_Clbrdrs_Edtr
         '
@@ -422,6 +527,11 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_Cdstrs_UnddsSnc_Adcnr.Size = New System.Drawing.Size(180, 22)
         Me.TlStrpMnItm_Cdstrs_UnddsSnc_Adcnr.Text = "Adicionar"
         '
+        'TlStrpSprtr_Cdstrs_UnddsSnc_1
+        '
+        Me.TlStrpSprtr_Cdstrs_UnddsSnc_1.Name = "TlStrpSprtr_Cdstrs_UnddsSnc_1"
+        Me.TlStrpSprtr_Cdstrs_UnddsSnc_1.Size = New System.Drawing.Size(177, 6)
+        '
         'TlStrpMnItm_Cdstrs_UnddsSnc_Edtr
         '
         Me.TlStrpMnItm_Cdstrs_UnddsSnc_Edtr.Name = "TlStrpMnItm_Cdstrs_UnddsSnc_Edtr"
@@ -463,6 +573,11 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Adcnr.Size = New System.Drawing.Size(180, 22)
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Adcnr.Text = "Adicionar"
         '
+        'TlStrpSprtr_Cdstrs_ClncsAtrzds_1
+        '
+        Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_1.Name = "TlStrpSprtr_Cdstrs_ClncsAtrzds_1"
+        Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_1.Size = New System.Drawing.Size(177, 6)
+        '
         'TlStrpMnItm_Cdstrs_ClncsAtrzds_Edtr
         '
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Edtr.Name = "TlStrpMnItm_Cdstrs_ClncsAtrzds_Edtr"
@@ -485,121 +600,6 @@ Partial Class Frm_Principal
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Vslzr.Name = "TlStrpMnItm_Cdstrs_ClncsAtrzds_Vslzr"
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Vslzr.Size = New System.Drawing.Size(180, 22)
         Me.TlStrpMnItm_Cdstrs_ClncsAtrzds_Vslzr.Text = "Visualizar"
-        '
-        'TlStrpSprtr_PrcsssDP_Admsss_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_Admsss_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_1"
-        Me.TlStrpSprtr_PrcsssDP_Admsss_1.Size = New System.Drawing.Size(250, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_Rscss_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_Rscss_1.Name = "TlStrpSprtr_PrcsssDP_Rscss_1"
-        Me.TlStrpSprtr_PrcsssDP_Rscss_1.Size = New System.Drawing.Size(239, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_1"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_1.Size = New System.Drawing.Size(206, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_2
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_2"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_2.Size = New System.Drawing.Size(206, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1"
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_1.Size = New System.Drawing.Size(220, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1"
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_1.Size = New System.Drawing.Size(252, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2
-        '
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2"
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Mnslst_2.Size = New System.Drawing.Size(252, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1.Name = "TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1"
-        Me.TlStrpSprtr_PrcsssDP_Admsss_EnvrSlctcDcmnts_TpDCntrt_Hrst_1.Size = New System.Drawing.Size(252, 6)
-        '
-        'TlStrpSprtr_Cdstrs_Clbrdrs_1
-        '
-        Me.TlStrpSprtr_Cdstrs_Clbrdrs_1.Name = "TlStrpSprtr_Cdstrs_Clbrdrs_1"
-        Me.TlStrpSprtr_Cdstrs_Clbrdrs_1.Size = New System.Drawing.Size(177, 6)
-        '
-        'TlStrpSprtr_Cdstrs_UnddsSnc_1
-        '
-        Me.TlStrpSprtr_Cdstrs_UnddsSnc_1.Name = "TlStrpSprtr_Cdstrs_UnddsSnc_1"
-        Me.TlStrpSprtr_Cdstrs_UnddsSnc_1.Size = New System.Drawing.Size(177, 6)
-        '
-        'TlStrpSprtr_Cdstrs_ClncsAtrzds_1
-        '
-        Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_1.Name = "TlStrpSprtr_Cdstrs_ClncsAtrzds_1"
-        Me.TlStrpSprtr_Cdstrs_ClncsAtrzds_1.Size = New System.Drawing.Size(177, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_1.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_2.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_3.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrEncmnhmnt_4.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_1.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_2.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_3.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrAvsDMrcc_4.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_1.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_2.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_3.Size = New System.Drawing.Size(232, 6)
-        '
-        'TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4
-        '
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4.Name = "TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4"
-        Me.TlStrpSprtr_PrcsssDP_ExmsMdcs_EnvrSlctcDASO_4.Size = New System.Drawing.Size(232, 6)
         '
         'Frm_Principal
         '
