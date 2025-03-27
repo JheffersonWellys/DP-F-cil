@@ -13,14 +13,14 @@
     End Sub
 
     ' Evento do timer que ocorre a cada intervalo
-    Private Sub introTimer_Tick(sender As Object, e As EventArgs) Handles Tmr_Intro.Tick
+    Private Sub Tmr_Intro_Tick(sender As Object, e As EventArgs) Handles Tmr_Intro.Tick
 
         ' Para o timer para evitar múltiplos ticks
         Tmr_Intro.Stop()
 
         ' Abre o FormPrincipal e fecha o FormIntro
-        'Dim frm_Principal As New form_Principal()
-        'frm_Principal.Show()
+        Dim frm_Principal As New Frm_Principal()
+        frm_Principal.Show()
 
         Me.Close()
 
