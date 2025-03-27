@@ -92,6 +92,7 @@
       <DependentUpon>Frm_Intro.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Md_Classes.vb" />
     <Compile Include="Md_Funcoes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
