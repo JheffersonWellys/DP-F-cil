@@ -141,6 +141,9 @@
 
     Private Sub TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr_Click(sender As Object, e As EventArgs) Handles TlStrpMnItm_Cdstrs_Clbrdrs_Adcnr.Click
 
+        Dim Frm As New Frm_Cadastro_Colaboradores
+        Frm.ShowDialog()
+
     End Sub
 
     Private Sub TlStrpMnItm_Cdstrs_Clbrdrs_Edtr_Click(sender As Object, e As EventArgs) Handles TlStrpMnItm_Cdstrs_Clbrdrs_Edtr.Click
