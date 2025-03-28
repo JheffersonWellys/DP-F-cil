@@ -263,7 +263,7 @@ Module Md_BancoDeDados
     End Sub
 
     ' Funções para inserir, atualizar, excluir e consultar registros no banco de dados
-    Private Function InserirRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
+    Public Function InserirRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
                 Using cmd As New SQLiteCommand(query, conn)
@@ -280,7 +280,7 @@ Module Md_BancoDeDados
         End Try
     End Function
 
-    Private Function AtualizarRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
+    Public Function AtualizarRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
                 Using cmd As New SQLiteCommand(query, conn)
@@ -297,7 +297,7 @@ Module Md_BancoDeDados
         End Try
     End Function
 
-    Private Function ExcluirRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
+    Public Function ExcluirRegistro(query As String, parametros As List(Of SQLiteParameter)) As Boolean
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()
                 Using cmd As New SQLiteCommand(query, conn)
@@ -314,7 +314,7 @@ Module Md_BancoDeDados
         End Try
     End Function
 
-    Private Function ConsultarRegistros(query As String, parametros As List(Of SQLiteParameter)) As DataTable
+    Public Function ConsultarRegistros(query As String, parametros As List(Of SQLiteParameter)) As DataTable
         Dim dt As New DataTable()
         Try
             Using conn As SQLiteConnection = ObterConexaoSQLite()

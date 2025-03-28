@@ -1,6 +1,10 @@
-﻿Imports DP_Fácil.Tabela
+﻿Imports System.Data.SQLite
+Imports DP_Fácil.Tabela
 
 Module Md_Funcoes_BancoDeDados
+
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar endereços
 
     Public Function AdicionarEndereco(endereco As Endereco) As Boolean
         Try
@@ -73,6 +77,8 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar clincias
 
     Public Function AdicionarClinica(clinica As Clinica) As Boolean
         Try
@@ -134,9 +140,9 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
-    Public Function BuscarUnidadesAtivas() As DataTable
+    Public Function BuscarClinicasAtivas() As DataTable
         Try
-            Dim query As String = "SELECT * FROM UnidadesSenac WHERE Status = 'Ativo'"
+            Dim query As String = "SELECT * FROM Clinicas WHERE Status = 'Ativo'"
             Dim parametros As New List(Of SQLiteParameter)()
 
             Return ConsultarRegistros(query, parametros)
@@ -145,6 +151,9 @@ Module Md_Funcoes_BancoDeDados
             Return Nothing
         End Try
     End Function
+
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar unidades
 
     Public Function AdicionarUnidadeSenac(unidade As UnidadeSenac) As Boolean
         Try
@@ -217,6 +226,8 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar agências
 
     Public Function AdicionarAgenciaCaixa(agencia As AgenciaCaixa) As Boolean
         Try
@@ -291,7 +302,8 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
-
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar tipos de contratos
     Public Function AdicionarTipoContrato(tipo As TipoContrato) As Boolean
         Try
             Dim query As String = "INSERT INTO TipoContrato (NomeTipoContrato, Status) 
@@ -354,8 +366,9 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar colaborador
 
-    ' Adicionar Colaborador
     Public Function AdicionarColaborador(colaborador As Colaborador) As Boolean
         Try
             Dim query As String = "INSERT INTO Colaboradores (Chapa, NomeCompleto, Rg, Cpf, EmailPessoal, EmailCorporativo, IdTipoContrato, Funcao, Setor, DataNascimento, Sexo, DataAdmissao, TelefonePessoal, IdEndereco, Status) 
@@ -449,8 +462,9 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar exame médico
 
-    ' Adicionar Exame Médico
     Public Function AdicionarExameMedico(exame As ExameMedico) As Boolean
         Try
             Dim query As String = "INSERT INTO ExamesMedicos (TipoExame, IdColaborador, DataAgendamento, HorarioAgendamento, IdClinica, DataValidade, Status) 
@@ -500,7 +514,6 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
-    ' Excluir Exame Médico
     Public Function ExcluirExameMedico(idExame As Integer) As Boolean
         Try
             Dim query As String = "DELETE FROM ExamesMedicos WHERE IdExame = @IdExame"
@@ -527,8 +540,9 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
+    '******************************************************************************************************************
+    ' Funções para adicionar, editar, excluir ou listar documentos admissionais
 
-    ' Adicionar Documento Admissional
     Public Function AdicionarDocumentoAdmissional(documento As DocumentoAdmissional) As Boolean
         Try
             Dim query As String = "INSERT INTO DocumentosAdmissionais (NomeDocumento, MensalistaInstrutorFormacao, MensalistaAdministrativo, MensalistaPrazoDeterminado, TipoContratoHorista, 
@@ -554,20 +568,6 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
-    Public Function BuscarDocumentosAdmissionais() As DataTable
-        Try
-            Dim query As String = "SELECT * FROM DocumentosAdmissionais WHERE Status = 'Pendente'"
-            Dim parametros As New List(Of SQLiteParameter)()
-
-            Return ConsultarRegistros(query, parametros)
-        Catch ex As Exception
-            MessageBox.Show("Erro ao pesquisar documentos admissionais: " & ex.Message)
-            Return Nothing
-        End Try
-    End Function
-
-
-    ' Atualizar Documento Admissional
     Public Function AtualizarDocumentoAdmissional(documento As DocumentoAdmissional) As Boolean
         Try
             Dim query As String = "UPDATE DocumentosAdmissionais 
@@ -596,7 +596,6 @@ Module Md_Funcoes_BancoDeDados
         End Try
     End Function
 
-    ' Excluir Documento Admissional
     Public Function ExcluirDocumentoAdmissional(idDocumento As Integer) As Boolean
         Try
             Dim query As String = "DELETE FROM DocumentosAdmissionais WHERE IdDocumento = @IdDocumento"
@@ -610,6 +609,16 @@ Module Md_Funcoes_BancoDeDados
             Return False
         End Try
     End Function
+    Public Function BuscarDocumentosAdmissionais() As DataTable
+        Try
+            Dim query As String = "SELECT * FROM DocumentosAdmissionais WHERE Status = 'Pendente'"
+            Dim parametros As New List(Of SQLiteParameter)()
 
+            Return ConsultarRegistros(query, parametros)
+        Catch ex As Exception
+            MessageBox.Show("Erro ao pesquisar documentos admissionais: " & ex.Message)
+            Return Nothing
+        End Try
+    End Function
 
 End Module
