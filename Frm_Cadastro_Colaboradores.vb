@@ -8,7 +8,6 @@ Public Class Frm_Cadastro_Colaboradores
     Private ColaboradorAtual As Colaborador
     Private Modo As String
 
-
     '******************************************************************************************************************
     ' Controles do Formulário
 
