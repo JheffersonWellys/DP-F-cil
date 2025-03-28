@@ -1,4 +1,5 @@
 ﻿Imports DP_Fácil.Tabela
+Imports DP_Fácil.Md_Variaveis
 
 Public Class Frm_Cadastro_Colaboradores
 
@@ -6,7 +7,7 @@ Public Class Frm_Cadastro_Colaboradores
     ' Variáveis de Manipulação
 
     Private ColaboradorAtual As Colaborador
-    Private Modo As String
+    Private ModoAtual As ModoFormulario
 
     '******************************************************************************************************************
     ' Controles do Formulário
@@ -41,7 +42,23 @@ Public Class Frm_Cadastro_Colaboradores
     '******************************************************************************************************************
     ' Funções e rotinas Auxiliares
 
-    Public Sub DefinirModoFormulario(Modo As String)
+    Public Sub DefinirModoFormulario(Modo As ModoFormulario)
+
+        Select Case Modo
+
+            Case ModoFormulario.Adicionar
+
+
+            Case ModoFormulario.Editar
+
+
+            Case ModoFormulario.Excluir
+
+
+            Case ModoFormulario.Visualizar
+
+
+        End Select
 
     End Sub
 
